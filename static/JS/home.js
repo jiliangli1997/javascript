@@ -14,3 +14,9 @@ function reset() {
 //let day = age * 365;
 //console.log('age\n' + age);
 //console.log('day\n' + day);
+
+function generateDog() {
+    var image = document.createElement('img');
+    image.src = 'https://raw.githubusercontent.com/jiliangli1997/picture/main/bichon-pic.png';
+    document.getElementById('flex-dog-gen').appendChild(image);
+}
